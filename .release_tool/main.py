@@ -74,7 +74,7 @@ if __name__ == '__main__':
     print('-- main.py --')
     input_str = ''
     input_str = input_tool(
-        first_message='> 是否进入发布模式，反之进入构建模式',
+        first_message='是否进入发布模式，反之进入构建模式',
         rule='(y/n)',
         error_message='请只输入 y 或 n',
         rule_function=lambda input_str: input_str == 'y' or input_str == 'n',
