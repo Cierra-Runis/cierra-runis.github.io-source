@@ -840,7 +840,7 @@ lazyload:
 # See https://github.com/JLHwung/hexo-offline
 pwa:
   enable: true
-  manifest: /manifest.json
+  manifest: /pwa/manifest.json
   theme_color: "#ff8000"
   apple_touch_icon: /img/siteicon/128.png
   favicon_32_32: /img/siteicon/32.png
