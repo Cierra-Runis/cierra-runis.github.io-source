@@ -1,43 +1,43 @@
 @font-face {
     font-family: Torus;
     font-weight: 100;
-    src: url(https://osu.ppy.sh/assets/fonts/Torus-Thin.daca2c7e.otf)
+    src: url(https://osu.ppy.sh/assets/fonts/Torus-Thin.daca2c7e.otf);
 }
 
 @font-face {
     font-family: Torus;
     font-weight: 600;
-    src: url(https://osu.ppy.sh/assets/fonts/Torus-SemiBold.d263d500.otf)
+    src: url(https://osu.ppy.sh/assets/fonts/Torus-SemiBold.d263d500.otf);
 }
 
 @font-face {
     font-family: Torus;
     font-weight: 700;
-    src: url(https://osu.ppy.sh/assets/fonts/Torus-SemiBold.d263d500.otf)
+    src: url(https://osu.ppy.sh/assets/fonts/Torus-SemiBold.d263d500.otf);
 }
 
 @font-face {
     font-family: Torus;
     font-weight: 400;
-    src: url(https://osu.ppy.sh/assets/fonts/Torus-Regular.734ed3ae.otf)
+    src: url(https://osu.ppy.sh/assets/fonts/Torus-Regular.734ed3ae.otf);
 }
 
 @font-face {
     font-family: Torus;
     font-weight: 300;
-    src: url(https://osu.ppy.sh/assets/fonts/Torus-Light.8d3ecae8.otf)
+    src: url(https://osu.ppy.sh/assets/fonts/Torus-Light.8d3ecae8.otf);
 }
 
 @font-face {
     font-family: Torus;
     font-weight: 900;
-    src: url(https://osu.ppy.sh/assets/fonts/Torus-Heavy.7dc2d96b.otf)
+    src: url(https://osu.ppy.sh/assets/fonts/Torus-Heavy.7dc2d96b.otf);
 }
 
 @font-face {
     font-family: Torus;
     font-weight: 800;
-    src: url(https://osu.ppy.sh/assets/fonts/Torus-Bold.c233ce17.otf)
+    src: url(https://osu.ppy.sh/assets/fonts/Torus-Bold.c233ce17.otf);
 }
 
 div#menus {
@@ -54,6 +54,43 @@ a.blog-slider__title,
 a.categoryBar-list-link,
 h1.post-title {
     font-family: Torus;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 12px;
+    max-width: 100%;
+    -webkit-transition: filter 375ms ease-in 0.2s;
+    -moz-transition: filter 375ms ease-in 0.2s;
+    -o-transition: filter 375ms ease-in 0.2s;
+    -ms-transition: filter 375ms ease-in 0.2s;
+    transition: filter 375ms ease-in 0.2s;
+}
+
+#aside-content .card-info #card-info-btn {
+    display: block;
+    margin-top: 14px;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    text-align: center;
+    border-radius: 12px;
+    line-height: 2.4;
+}
+
+#aside-content #card-toc .toc-content .toc-link {
+    display: block;
+    margin: 4px 0;
+    padding: 1px 6px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 12px;
+}
+
+.postImgHover img,
+#pagination .prev-post img,
+#pagination .next-post img,
+.relatedPosts>.relatedPosts-list>div img {
+    border-radius: 0px;
 }
 
 .iconfont {
@@ -77,7 +114,7 @@ svg.icon {
 }
 
 .icon-zhongbiao::before {
-    color: #f7c768;
+    color: #ff8000;
 }
 
 /* bilibli番剧插件 */
@@ -85,6 +122,26 @@ svg.icon {
     background: var(--anzhiyu-theme);
     color: var(--anzhiyu-ahoverbg);
     border-radius: 10px;
+}
+
+#article-container img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 12px !important;
+    max-width: 100%;
+    -webkit-transition: filter 375ms ease-in 0.2s;
+    -moz-transition: filter 375ms ease-in 0.2s;
+    -o-transition: filter 375ms ease-in 0.2s;
+    -ms-transition: filter 375ms ease-in 0.2s;
+    transition: filter 375ms ease-in 0.2s;
+}
+
+.bangumi-info-item {
+    display: inline-block;
+    width: 13%;
+    border-right: 1px solid #6e6e6e !important;
+    text-align: center;
+    height: 34px;
 }
 
 a.bangumi-tab:hover {
@@ -114,15 +171,15 @@ svg.icon.faa-tada {
 }
 
 .bangumi-info-item {
-    border-right: 1px solid #f2b94b;
+    border-right: 1px solid #ff8000;
 }
 
 .bangumi-info-item span {
-    color: #f2b94b;
+    color: #ad80ff;
 }
 
 .bangumi-info-item em {
-    color: #f2b94b;
+    color: #ad80ff;
 }
 
 /* 解决artitalk的图标问题 */
@@ -139,6 +196,7 @@ svg.icon.faa-tada {
 /* 首页文章卡片 */
 #recent-posts>.recent-post-item {
     background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
 }
 
 /* 首页侧栏卡片 */
@@ -173,45 +231,46 @@ div#category {
 
 /* 夜间模式伪类遮罩层透明 */
 [data-theme="dark"] #recent-posts>.recent-post-item {
-    background: #222;
+    background: rgb(34, 34, 34, 0.9);
+    border-radius: 12px;
 }
 
 [data-theme="dark"] .card-widget {
-    background: #222 !important;
+    background: rgb(34, 34, 34, 0.9) !important;
 }
 
 [data-theme="dark"] div#post {
-    background: #222 !important;
+    background: rgb(34, 34, 34, 0.9) !important;
 }
 
 [data-theme="dark"] div#tag {
-    background: #222 !important;
+    background: rgb(34, 34, 34, 0.9) !important;
 }
 
 [data-theme="dark"] div#archive {
-    background: #222 !important;
+    background: rgb(34, 34, 34, 0.9) !important;
 }
 
 [data-theme="dark"] div#page {
-    background: #222 !important;
+    background: rgb(34, 34, 34, 0.9) !important;
 }
 
 [data-theme="dark"] div#category {
-    background: #222 !important;
+    background: rgb(34, 34, 34, 0.9) !important;
 }
 
 [data-theme="dark"] div#category {
     background: transparent !important;
 }
 
-[data-theme='dark'] #web_bg:before,
-[data-theme='dark'] #footer:before,
-[data-theme='dark'] #page-header:before {
+[data-theme="dark"] #web_bg:before,
+[data-theme="dark"] #footer:before,
+[data-theme="dark"] #page-header:before {
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: transparent !important;
-    content: '';
+    content: "";
 }
 
 /* 页脚透明 */
@@ -231,22 +290,17 @@ div#category {
 /* 滚动条 */
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 4px;
     height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #3b70fc;
-    border-radius: 2em;
+    background-color: rgba(88, 88, 88, 0.801);
+    border-radius: 2px;
 }
 
 ::-webkit-scrollbar-corner {
     background-color: transparent;
-}
-
-::-moz-selection {
-    color: #fff;
-    background-color: #3b70fc;
 }
 
 /* 音乐播放器 */
@@ -346,7 +400,8 @@ a,
     padding: 0.5rem;
     text-align: center;
     font-size: 14px;
-    font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
 }
 
 #error-wrap .error-content .error-info .error_title {
