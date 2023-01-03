@@ -32,19 +32,16 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://github.com/Cierra-Runis || Github
+  fas fa-envelope: mailto:byrdsaron@gmail.com || 邮箱
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
-# --------------------------------------
-
 # Algolia search
 algolia_search:
   enable: false
   hits:
     per_page: 6
-
 # Local search
 local_search:
   enable: true
@@ -120,7 +117,7 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - /img/TOU.jpg
+    - /img/default_cover.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -129,8 +126,8 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
-  subtitle: "Page Not Found"
+  enable: true
+  subtitle: "该页面不存在"
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
