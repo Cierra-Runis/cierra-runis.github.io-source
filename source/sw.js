@@ -13,7 +13,7 @@
 
 // This polyfill provides Cache.add(), Cache.addAll(), and CacheStorage.match(),
 // which are not implemented in Chrome 40.
-importScripts('js/dependencies/cache-polyfill.js');
+importScripts('cache-polyfill.js');
 
 // While overkill for this specific sample in which there is only one cache,
 // this is one best practice that can be followed in general to keep track of
@@ -33,7 +33,7 @@ var urlsToPrefetch = [
     '/',
     '/page',
     '/styles/common.css',
-    '/js/dependencies/autolinker.js',
+    'autolinker.js',
     '/template.js',
     '/images/icon.png',
     '/images/icon.svg',
