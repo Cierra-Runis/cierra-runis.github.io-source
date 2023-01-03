@@ -10,10 +10,11 @@ keywords: "笔记,博客,ノート,notes,blog"
 author: Cierra Runis
 language: zh-CN
 timezone: "Asia/Shanghai"
+email: "byrdsaron@gmail.com"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://cierra-runis.github.io/
+url: https://cierra-runis.github.io
 permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
@@ -116,3 +117,60 @@ search:
   path: search.xml
   field: all
   content: true
+
+# https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
+# https://github.com/coneycode/hexo-generator-baidu-sitemap
+baidusitemap:
+  path: baidusitemap.xml
+
+# https://github.com/hexojs/hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+rss: /atom.xml
+
+# Extensions
+plugins:
+  - hexo-generator-feed
+  - hexo-generator-baidu-sitemap
+  - hexo-generator-sitemap
+
+# 追番插件
+# https://github.com/HCLonely/hexo-bilibili-bangumi
+bangumi: # 追番设置
+  enable: true
+  path:
+  vmid: 174892451
+  title: "追番列表"
+  quote: "生命不息，追番不止！"
+  show: 1
+  lazyload: false
+  loading:
+  metaColor:
+  color:
+  webp:
+  progress:
+  extra_options:
+    key: value
+
+# APlayer
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+  asset_inject: false
+
+# markdown
+markdown:
+  plugins:
+    - plugin:
+      name: "@neilsustc/markdown-it-katex"
+      options:
+        strict: false
