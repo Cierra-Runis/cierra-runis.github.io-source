@@ -64,11 +64,9 @@ def release_module() -> None:
 
     print('> 同步本仓库中')
     os.system('git add .')
-    print('> 请输入一段信息: ')
-    release_str = input().replace('\n', ' ')
-    os.system(f'git commit -m "{release_str}"')
+    os.system('git commit -m "修改"')
     os.system('git push')
-    print(f'> 已发布携带信息为 "{release_str}" 的仓库, 请检查发布情况')
+    print('> 已发布携带信息为 "修改" 的仓库, 请检查发布情况')
 
 
 if __name__ == '__main__':
