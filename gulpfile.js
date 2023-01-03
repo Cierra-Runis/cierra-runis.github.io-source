@@ -11,7 +11,6 @@ import cleanCSS from "gulp-clean-css";
 import htmlmin from "gulp-htmlmin";
 import htmlclean from "gulp-htmlclean";
 import workbox from "workbox-build";
-import fontmin from "gulp-fontmin";
 
 // 若使用babel压缩js，则取消下方注释，并注释terser的代码
 // var uglify = require('gulp-uglify');
@@ -100,19 +99,6 @@ gulp.task("minify-html", () => {
         )
         .pipe(gulp.dest("./public"));
 });
-
-//压缩字体
-function minifyFont(text, cb) {
-    gulp
-        .src("./public/fonts/*.ttf") //原字体所在目录
-        .pipe(
-            fontmin({
-                text: text,
-            })
-        )
-        .pipe(gulp.dest("./public/fontsdest/")) //压缩后的输出目录
-        .on("end", cb);
-}
 
 gulp.task("mini-font", cb => {
     var buffers = [];
