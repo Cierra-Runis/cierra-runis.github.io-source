@@ -359,6 +359,10 @@ a,
 }
 
 /* 404页面 */
+.error404 #error-wrap .error-content .error-img img {
+    background-color: transparent !important;
+}
+
 #error-wrap {
     position: absolute;
     top: 40%;
@@ -389,7 +393,7 @@ a,
     height: 100%;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
-    background-color: #3b70fc;
+    background-color: transparent;
     background-position: center;
     background-size: cover;
 }
