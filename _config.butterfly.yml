@@ -74,7 +74,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/TOU.jpg
+  img: https://bu.dusays.com/2023/01/03/63b3e72167fa6.jpg
   effect: false
 
 # Disable all banner image

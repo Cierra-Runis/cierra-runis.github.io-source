@@ -28,12 +28,13 @@ updated: 2023-01-03 10:31:07
 
 按照要求，填入如下图的信息
 
-![Image](/Image/2021-10-22/bug1.png)
-![Image](/Image/2021-10-22/bug2.png)
+![](https://bu.dusays.com/2023/01/03/63b3e62edfd55.png)
+
+![](https://bu.dusays.com/2023/01/03/63b3e64932213.png)
 
 然后我只能在主页右上角的 `关于` 页面的最下方找到 `Gitalk` 的入口，如下图
 
-![Image](/Image/2021-10-22/bug3.png)
+![](https://bu.dusays.com/2023/01/03/63b3e656e704f.png)
 
 使用 `Github` 登录后，得下图 `403` 错误
 
@@ -55,7 +56,7 @@ admin: # Github repo owner and collaborators, only these guys can initialize git
 
 谢佬在用开发者工具后发现了信息不返回的情况，最后在 `TeXt Theme` 的 [Issue](https://github.com/kitian616/jekyll-TeXt-theme/issues/350) 找到了同样的问题
 
-![Image](/Image/2021-10-22/issues.png)
+![](https://bu.dusays.com/2023/01/03/63b3e66b94a66.png)
 
 <span id="jump">根据指引</span>找到了 [这个博客](https://cuiqingcai.com/30010.html)，但根据他最后提供（让我们可以白嫖）的
 
