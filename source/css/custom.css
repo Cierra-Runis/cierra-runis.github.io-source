@@ -117,7 +117,7 @@ svg.icon {
     color: #ff8000;
 }
 
-/* bilibli番剧插件 */
+/* bilibili 番剧插件 */
 #article-container .bangumi-tab.bangumi-active {
     background: var(--anzhiyu-theme);
     color: var(--anzhiyu-ahoverbg);
@@ -182,13 +182,13 @@ svg.icon.faa-tada {
     color: #ad80ff;
 }
 
-/* 解决artitalk的图标问题 */
+/* 解决 artitalk 的图标问题 */
 #uploadSource>svg {
     width: 1.19em;
     height: 1.5em;
 }
 
-/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+/* top-img 黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
 #page-header:not(.not-top-img):before {
     background-color: transparent !important;
 }

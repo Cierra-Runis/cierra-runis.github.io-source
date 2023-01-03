@@ -4125,6 +4125,13 @@
     "mv" "~2"
     "safe-json-stringify" "~1"
 
+"hexo-butterfly-clock-anzhiyu@^1.1.8":
+  "integrity" "sha512-fk9b7sv2qwKYc4aoxnQWW1gdpI4gbebNJFhFLfBxMShd+onq9MZw0Dhcn3nDiALbnu2GoHRHPk5PIJlaB2n3Qg=="
+  "resolved" "https://registry.npmjs.org/hexo-butterfly-clock-anzhiyu/-/hexo-butterfly-clock-anzhiyu-1.1.8.tgz"
+  "version" "1.1.8"
+  dependencies:
+    "pug" "^3.0.0"
+
 "hexo-cli@^2.0.0":
   "integrity" "sha512-ZHWh2W35IHaAv9vmcrq+yWjubF26TV+qXoihMnJ3LojWlUCFoMWfEoxJcm0AL709SSuVMpwvUI8la4CpQCOGXQ=="
   "resolved" "https://registry.npmjs.org/hexo-cli/-/hexo-cli-2.0.0.tgz"
@@ -6929,7 +6936,7 @@
   "resolved" "https://registry.npmjs.org/pug-walk/-/pug-walk-2.0.0.tgz"
   "version" "2.0.0"
 
-"pug@^3.0.2":
+"pug@^3.0.0", "pug@^3.0.2":
   "integrity" "sha512-bp0I/hiK1D1vChHh6EfDxtndHji55XP/ZJKwsRqrz6lRia6ZC2OZbdAymlxdVFwd1L70ebrVJw4/eZ79skrIaw=="
   "resolved" "https://registry.npmjs.org/pug/-/pug-3.0.2.tgz"
   "version" "3.0.2"
