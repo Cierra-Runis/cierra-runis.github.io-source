@@ -40,6 +40,12 @@
     src: url(/fonts/Torus-Bold.c233ce17.otf);
 }
 
+@font-face {
+    font-family: cascadia;
+    font-weight: normal;
+    src: url(/fonts/CascadiaCode.ttf);
+}
+
 div#menus {
     font-family: "Torus";
 }
