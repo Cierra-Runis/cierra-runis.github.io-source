@@ -597,8 +597,8 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family: Torus, HarmonyOS_Sans_SC, "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
-  code-font-family: cascadia, HarmonyOS_Sans_SC, "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  font-family: Torus, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: cascadia, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
