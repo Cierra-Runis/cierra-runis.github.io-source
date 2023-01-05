@@ -6,4 +6,4 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
-note-of-me-cdn/
+.release_tool/note-of-me-cdn/*

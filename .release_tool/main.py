@@ -3,6 +3,7 @@
 '''
 
 import os
+import shutil
 
 
 def input_tool(
@@ -69,6 +70,31 @@ def release_module() -> None:
     print('> 已发布携带信息为 "修改" 的仓库, 请检查发布情况')
 
 
+def cdn_module() -> None:
+    '''
+    cdn 模块
+    '''
+    print('> 进入 cdn 模块')
+    copy_tree(
+        src_path=r'source',
+        dst_path=r'.release_tool\note-of-me-cdn\source',
+    )
+    os.system(r'.release_tool\note-of-me-cdn\cdn.bat')
+
+
+def copy_tree(src_path: str, dst_path: str) -> None:
+    '''
+    复制 src_path 文件夹至 dst_path 目录下, 且要求俩者后不接 '/'
+    '''
+    if not os.path.isdir(src_path):
+        print(f'> 所复制 {src_path} 不存在')
+    else:
+        if os.path.isdir(dst_path):
+            shutil.rmtree(dst_path)
+        shutil.copytree(src_path, dst_path)
+        print(f'> 已复制 {src_path} 至 {dst_path} 下')
+
+
 if __name__ == '__main__':
     os.system('cls')
     print('-- main.py --')
@@ -80,6 +106,7 @@ if __name__ == '__main__':
         rule_function=lambda input_str: input_str == 'y' or input_str == 'n',
     )
 
+    cdn_module()
     if input_str == 'y':
         release_module()
     else:
