@@ -106,6 +106,10 @@ strong {
     font-weight: 900 !important;
 }
 
+#article-container p {
+    font-size: 16px;
+}
+
 img {
     display: block;
     margin: 0 auto 20px;
