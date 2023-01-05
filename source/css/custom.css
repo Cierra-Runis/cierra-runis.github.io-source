@@ -458,8 +458,8 @@ a,
     padding: 0.5rem;
     text-align: center;
     font-size: 14px;
-    font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB",
-        "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+    font-family: cascadia, "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB",
+        "Microsoft JhengHei", sans-serif;
 }
 
 #error-wrap .error-content .error-info .error_title {
