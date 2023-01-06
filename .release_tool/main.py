@@ -3,9 +3,7 @@
 '''
 
 import os
-import re
 import shutil
-import yaml
 
 
 def input_tool(
