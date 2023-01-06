@@ -35,8 +35,8 @@
 
 # 🧑‍💻 贡献者
 
-<a href="https://github.com/Cierra-Runis/cierra-runis.github.io-source/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Cierra-Runis/cierra-runis.github.io-source" />
+<a href="https://github.com/Cierra-Runis/cierra-runis.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Cierra-Runis/cierra-runis.github.io" />
 </a>
 
 # 🔦 声明
