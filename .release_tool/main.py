@@ -1,5 +1,6 @@
 '''
 发布用 py 脚本
+main.py
 '''
 
 import os
