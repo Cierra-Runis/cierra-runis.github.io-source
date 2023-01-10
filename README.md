@@ -1,9 +1,11 @@
 <div align="center">
-  <img id="cierra-runis.github.io-source" width="96" alt="cierra-runis.github.io-source" src="repository_icon/icon.svg">
+  <img width="96" alt="cierra-runis.github.io-source" src="https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io-source/master/repository_icon/icon.svg">
   <p>『 cierra-runis.github.io-source - 个人网站源代码』</p>
 </div>
 
 [📚 简介](#-简介)
+
+[📸 示例](#-示例)
 
 [📦 使用方式](#-使用方式)
 
@@ -20,6 +22,10 @@
 # 📚 简介
 
 个人网站源代码
+
+# 📸 示例
+
+![screenshots_1](https://raw.githubusercontent.com/Cierra-Runis/cierra-runis.github.io-source/master/img/screenshots_1.png)
 
 # 📦 使用方式
 
@@ -41,4 +47,6 @@
 
 # 🔦 声明
 
-无
+[![License](https://img.shields.io/github/license/Cierra-Runis/cierra-runis.github.io-source)](https://github.com/Cierra-Runis/cierra-runis.github.io-source/blob/master/LICENSE)
+
+该项目采用 `MIT` 许可协议，查看 [LICENSE](https://github.com/Cierra-Runis/cierra-runis.github.io-source/blob/master/LICENSE) 以获得更多信息
