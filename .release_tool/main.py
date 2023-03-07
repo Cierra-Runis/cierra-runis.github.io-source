@@ -5,13 +5,14 @@ main.py
 
 import os
 import shutil
+from typing import Any
 
 
 def input_tool(
     first_message: str,
     rule: str,
     error_message: str,
-    rule_function: any,
+    rule_function: Any,
 ) -> str:
     '''
     根据 rule_function 获取合法的值
